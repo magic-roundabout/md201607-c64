@@ -933,7 +933,7 @@ splitter_6
 		nop
 		nop
 
-		ldx #$e2
+		ldx #$e2-8
 
 ; Final couple of scanlines before the lower border
 		lda split_buffer,x
